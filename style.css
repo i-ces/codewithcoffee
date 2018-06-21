@@ -939,7 +939,7 @@ button:focus {
 	color: #555;
 }
 
-.mu-register-btn {
+.register-btn {
 	background-color: #fff;
 	border: 1px solid #555;
 	color: #555;
@@ -955,9 +955,9 @@ button:focus {
 	transition: all 0.5s;
 }
 
-.mu-register-btn:hover,
-.mu-register-btn:focus,
-.mu-popular-price .mu-register-btn {
+.register-btn:hover,
+.register-btn:focus,
+.mu-popular-price .register-btn {
 	color: #fff;
 }
 
@@ -980,7 +980,7 @@ button:focus {
 /* REGISTER */
 /*--------------------*/
 
-#mu-register {
+#register {
 	background: #114E8E url("assets/images/head-featured-bg.png") no-repeat fixed center center;
 	background-size: cover;
 	display: inline;
@@ -989,7 +989,7 @@ button:focus {
 	width: 100%;
 }
 
-#mu-register::before {
+#register::before {
 	background: rgba(0,0,0,0.9);
 	bottom: 0;
 	content: '';
@@ -1000,19 +1000,19 @@ button:focus {
 	opacity: 0.9;
 }
 
-.mu-register-area {
+.register-area {
 	display: inline;
 	float: left;
 	padding: 150px 0;
 	width: 100%;
 }
 
-.mu-register-area .mu-title,
-.mu-register-area p {
+.register-area .mu-title,
+.register-area p {
 	color: #fff;
 }
 
-.mu-register-content {
+.register-content {
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1021,37 +1021,37 @@ button:focus {
 	margin-top: 50px;
 }
 
-.mu-register-form .form-group {
+.register-form .form-group {
 	margin-bottom: 25px;
 }
 
-.mu-register-form .form-control {
+.register-form .form-control {
 	height: 50px;
 	color: #fff;
 	background-color: transparent;
 	border: 2px solid #fff;
 }
 
-.mu-register-form select.form-control option{
+.register-form select.form-control option{
 	color: #333;
 }
 
-.mu-register-form .form-control::-webkit-input-placeholder {
+.register-form .form-control::-webkit-input-placeholder {
 	color: #fff;
 	font-size: 15px;
 }
 
-.mu-register-form .form-control:-moz-placeholder { /* Firefox 18- */
+.register-form .form-control:-moz-placeholder { /* Firefox 18- */
 	color: #fff;
 	font-size: 15px; 
 }
 
-.mu-register-form .form-control::-moz-placeholder {  /* Firefox 19+ */
+.register-form .form-control::-moz-placeholder {  /* Firefox 19+ */
 	color: #fff;
 	font-size: 15px;
 }
 
-.mu-register-form .form-control:-ms-input-placeholder {  
+.register-form .form-control:-ms-input-placeholder {  
 	color: #fff;
 	font-size: 15px;
 }
@@ -1370,7 +1370,7 @@ button:focus {
 
 @media (max-width: 1199px) {
 
-	.mu-register-content {
+	.register-content {
 		padding: 0 150px;
 	}
 
@@ -1571,7 +1571,7 @@ button:focus {
 		height: 100%;
 	}
 
-	.mu-register-content {
+	.register-content {
 		padding: 0 100px;
 	}
 
@@ -1698,7 +1698,7 @@ button:focus {
 		font-size: 16px;
 	}
 
-	.mu-register-content,
+	.register-content,
 	.mu-contact-content {
 		padding: 0 5%;
 	}
