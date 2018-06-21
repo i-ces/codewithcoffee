@@ -1,0 +1,312 @@
+---
+layout: default
+---
+	<!-- Start About -->
+  <section id="mu-about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-about-area">
+            <!-- Start Feature Content -->
+            <div class="row">
+              <div class="col-md-6">
+                <div class="mu-about-left">
+                  <img class="" src="assets/images/about.png" alt="Code Camp 2018">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mu-about-right">
+                  <h2>About Code With Coffee</h2>
+                  <p>
+                      {{ site.description }}
+                  </p>
+                  <p>
+                    {{ site.more_about }}
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Feature Content -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About -->
+
+  <section id="mu-video">
+    <div class="mu-video-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mu-video-area">
+              <h2>CodeCamp 2018</h2>
+              <br>
+              <hr>
+
+              {% comment %} <a class="mu-video-play-btn" href="#"><i class="fa fa-play" aria-hidden="true"></i></a> {% endcomment %}
+              <p class="code-with-coffee-link lead">
+                Club of Technical Students (CoTS) and Innovative Computer Engineering Students’ Society (iCES) is organizing a CodeCamp with the theme "Human Aid" on the occasion of technical festival held in Paschimanchal Campus on the pre-scheduled date. This event will make use of Information Technology to build and innovative applicable systems with the brainstorming of ideas to solve real-world problems. 
+
+                <br>
+                <hr>
+                <a class="btn btn-primary btn-lg" href="http://codecamp2018.com/" role="button">Learn more »</a>
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Start Video content -->
+    <div class="mu-video-content">
+      <div class="mu-video-iframe-area">
+        <a class="mu-video-close-btn" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/n9AVEl9764s" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <!-- End Video content -->
+
+  </section>
+  <!-- End Video -->
+
+
+  <!-- Start Speakers -->
+  <section id="mu-speakers">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-speakers-area">
+
+            <div class="mu-title-area">
+              <h2 class="mu-title">Our Team</h2>
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p> -->
+            </div>
+
+            <!-- Start Speakers Content -->
+            <div class="mu-speakers-content">
+
+              <div class="mu-speakers-slider">
+                {% for member in site.data.teams %}
+                <!-- Start single speaker -->
+                <div class="mu-single-speakers">
+                  <img src="assets/images/team/{{ member.photo }}" alt="speaker img">
+                  <div class="mu-single-speakers-info">
+                    {% if member.link != null %}
+                    <a href="{{ member.link }}">
+                      {% endif %}
+                    <h3>{{ member.name }}</h3>
+                    <p>{{ member.title }}</p>
+                    {% if member.link != null %}
+                    </a>
+                      {% endif %}
+                    <ul class="mu-single-speakers-social">
+                      <li><a href="http://facebook.com/{{ member.facebook }}"><i class="fa fa-facebook"></i></a></li>
+                      {% if member.twitter != null %}
+                      <li><a href="http://twitter.com/{{ member.twitter }}"><i class="fa fa-twitter"></i></a></li>
+                        {% endif %}
+                    </ul>
+                  </div>
+                </div>
+                <!-- End single speaker -->
+                {% endfor %}
+              </div>
+            </div>
+            <!-- End Speakers Content -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Speakers -->
+
+  <!-- Start Venue -->
+  <section id="mu-venue">
+    <div class="mu-venue-area">
+      <div class="row">
+
+        <div class="col-md-6">
+          <div class="mu-venue-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7029.114570323766!2d83.97793389179637!3d28.251114073701313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995947ddb83ddc5%3A0xcd98c6b6d110d582!2sPaschimanchal+Campus+(I.O.E)!5e0!3m2!1sen!2snp!4v1528898923790" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="mu-venue-address">
+            <h2>VENUE <i class="fa fa-chevron-right" aria-hidden="true"></i></h2>
+            <h3>Paschimanchal Campus</h3>
+            <h4>Pokhara-Lekhnath 19, Lamachaur </h4>
+            <p></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- End Venue -->
+
+  <!-- Start Pricing  -->
+  <section id="mu-pricing">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-pricing-area">
+            
+            <div class="mu-title-area">
+              <h2 class="mu-title">Participation </h2>
+              <p> {{ site.participation_text }} </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Pricing -->
+
+  <!-- Start Register  -->
+  <section id="mu-register">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-register-area">
+
+            <div class="mu-title-area">
+              <h2 class="mu-title">Register Form</h2>
+              <p>{{ site.register_text }}</p>
+            </div>
+
+            <div class="mu-register-conten">
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScIAPYFD1WCQCaVQE7YQHVk-PzR6f5qIdhzI85QKpxa1OgKJQ/viewform?embedded=true" marginheight="0" marginwidth="0" width="100%" height="1220" frameborder="0">Loading...</iframe>            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Register -->
+
+  <!-- Start FAQ -->
+  <section id="mu-faq">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-faq-area">
+
+            <div class="mu-title-area">
+              <h2 class="mu-title">FAQ</h2>
+              <p>Feel free to contact us using the contact form below if you couldn't find your question in the Frequently Asked Question.</p>
+            </div>
+
+            <div class="mu-faq-content">
+
+              <div class="panel-group" id="accordion">
+                    {% for qa in site.data.faq %}
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
+                            <span class="fa fa-angle-down"></span> {{ qa.question }}
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseOne" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                          {{ qa.answer }}
+                        </div>
+                      </div>
+                    </div>
+                    {% endfor %}
+
+
+
+                </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End FAQ -->
+
+  <!-- Start Sponsors -->
+  {% comment %} <section id="mu-sponsors">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-sponsors-area">
+            
+            <div class="mu-title-area">
+              <h2 class="mu-title">Our Sponsors</h2>
+              <p>This program couldnot be this program if there was not the support of the sponsers in it.</p>
+            </div>
+            
+            <!-- Start spnonsors brand logo -->
+            <div class="mu-sponsors-content">
+              <div class="row">
+              {% for sponser in site.data.sponsers %}
+                <div class="col-md-2 col-sm-4 col-xs-4">
+                  <div class="mu-sponsors-single">
+                    <a href="{{ sponser.link }}" data-toggle="tooltip" title="{{ sponser.brand }}"><img src="assets/images/sponser/{{ sponser.image }}" alt="{{ sponser.brand }}"  title="{{ sponser.brand }}"></a>
+                  </div>
+                </div>
+                {% endfor %}
+
+              </div>
+            </div>
+            <!-- End spnonsors brand logo -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Sponsors --> {% endcomment %}
+
+
+  <!-- Start Contact -->
+  <section id="mu-contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-contact-area">
+
+            <div class="mu-title-area">
+              <h2 class="mu-heading-title">Contact Us</h2>
+              <p>Feel free to message us.</p>
+            </div>
+
+            <!-- Start Contact Content -->
+            <div class="mu-contact-content">
+              <div class="row">
+
+              <div class="col-md-12">
+                <div class="mu-contact-form-area">
+                  <div id="form-messages"></div>
+			 <form action="https://formspree.io/contact@codecamp2018.com" method="POST" id="ps"  class="mu-contact-form"> <div id="recaptcha" style="text-align:center; display:inline-block"></div> 
+                      <div class="form-group">                
+                        <input type="text" class="form-control" placeholder="Name" id="name" name="name" required>
+                      </div>
+                      <div class="form-group">                
+                        <input type="email" class="form-control" placeholder="Enter Email" id="email" name="email" required>
+                      </div>              
+                      <div class="form-group">
+                        <textarea class="form-control" placeholder="Message" id="message" name="message" required></textarea>
+                      </div>
+                      <button type="submit" class="mu-send-msg-btn"><span>SUBMIT</span></button>
+                          </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+		   <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer> </script>
+            <!-- End Contact Content -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact -->

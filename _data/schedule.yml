@@ -1,0 +1,39 @@
+- date: 17 July
+  class: in active 
+  href: first-day
+  schedule: 
+    - time: 10:00 AM
+      work: inauguration
+    - time: 12:00 PM
+      work: Lunch time
+    - time: 3:00 PM
+      work: Tea break
+    - time: 5:00 PM
+      work: Day 1 complete.
+
+- date: 18 July
+  class:  
+  href: second-day
+  schedule: 
+    - time: 8:00 AM
+      work: Break fast
+    - time: 12:00 PM
+      work: Lunch time
+    - time: 3:00 PM
+      work: Tea break
+    - time: 5:00 PM
+      work: Finish Day 2
+
+- date: 19 July
+  class:  
+  href: second-day
+  schedule: 
+    - time: 8:00 AM
+      work: Break fast
+    - time: 12:00 PM
+      work: Lunch time
+    - time: 12:30 PM
+      work: Presentation
+    - time: 5:00 PM
+      work: Ending of Program
+

@@ -1,0 +1,55 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Code With Coffee Season 2
+topline: Code With Coffee Season 2
+welcome: Welcome to Code With Coffee Season 2
+tagline: A open coding competition.
+date: 9 July, 2018
+email: codewithcoffee@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  An open coding competition titled ‘Code With Coffee.’ was organized by Innovative computer Engineering Students' Society (i-CES) on 29th Asar of 2074. As a continuity to the competition, we are organizing Code with Coffee Season 2 in joint collaboration of i-CES and COTS on Ashad 25th 2075. 
+more_about: >-
+  Code with coffee is 1 day event going to be organized in Paschimanchal Campus on Ashad 25th as a pre-event to Technical Festival going to be organized in Paschimanchal Campus on Shrawan 3,4 and 5th and CodeCamp 2018 going to be organized on 18-20 July. It is a team wise Coding competition with 2 or 3 team members.Winner team of this competition will get an wildcard free entry to CodeCamp 2018, an Internship if interested along with the Prize. So We strongly suggest everyone to participate in the program. 
+participation_text: >-
+   Participants are requested to fill the following form before Ashad 20th along with the information of their team member. 
+registeration_text: >-
+  Team (3 members at max and 1 at min) must register their team names for Code With Coffee Season 2 with 
+  entry fee Rs.100 each
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: codewithcoffee
+github_username:  jekyll
+email: codewithcoffee@codecamp2018.com
+register_email: codewithcoffee@codecamp2018.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
