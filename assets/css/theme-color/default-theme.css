@@ -5,7 +5,7 @@ Author URI : http://www.markups.io/
 ========================================*/
 
 .mu-video-overlay {
-	background-color: #114E8E;/* fallback for old browsers */
+	background-color: #043642;;/* fallback for old browsers */
 }
 
 .mu-primary-btn:hover,
@@ -58,7 +58,7 @@ Author URI : http://www.markups.io/
 .mu-schedule-menu li.active a,
 .mu-schedule-menu li.active a:hover,
 .mu-schedule-menu li.active a:focus {
-	background-color: #114E8E;
+	background-color:#062D44;
 }
 
 .mu-social-media a:hover,
